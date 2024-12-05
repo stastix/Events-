@@ -1,0 +1,15 @@
+name: Trigger Jenkins Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  trigger-jenkins:
+    runs-on: self-hosted
+    steps:
+      - name: Trigger Jenkins Job
+        run: |
+          curl -X POST "http://192.168.33.10/job/SPRINGAOC/build" \
+          --data-urlencode token=1112884d89f697c516e888f003b7d5e95d
