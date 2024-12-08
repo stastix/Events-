@@ -10,5 +10,4 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Trigger Jenkins Job
-        run: |
-              curl  GET -v "http://192.168.33.10:8080/job/SPRINGAOC/build?token=1112884d89f697c516e888f003b7d5e95d" 
+        run: curl -v -X GET "http://192.168.33.10:8080/job/SPRINGAOC/build?token=1112884d89f697c516e888f003b7d5e95d"
