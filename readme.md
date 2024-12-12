@@ -33,7 +33,7 @@ This project aims to establish a streamlined, automated, and monitored DevOps pi
 
 ### Architecture Diagram
 
-![Architecture](./assets/translated_architecture_diagram.jpeg)
+![Architecture](./assets/1730805178746.jpeg)
 
 ---
 
